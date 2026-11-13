@@ -1,0 +1,6 @@
+[package]
+description = Loads the OffSeq Mirage Feed (handshake-verified attacker IPs, payload URLs and malware hashes from a honeypot fleet, CC BY 4.0, no API key) into the Intel framework and keeps it refreshed.
+tags = intel, threat intelligence, ioc, honeypot, blocklist, offseq, mirage
+script_dir = scripts
+depends =
+	zeek >=5.0.0
